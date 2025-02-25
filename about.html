@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <script>
+        gsap.from("h1", { opacity: 0, y: -50, duration: 1 });
+    </script>
+
+    <section>
+        <h2 class="animated-title">¿Quién soy?</h2>
+    
+        <div class="main-container">
+            <div class="content1">
+                <p class="izquierda">Soy <b>Danie Be</b>, una estudiante de diseño gráfico multimedia. Me considero una
+                    persona <i>tranquila, proactiva y formal</i>. Mi estilo se caracteriza por ser minimalista, pero siempre
+                    añadiendo un toque vintage que hace que mis trabajos tengan personalidad. Me encanta combinar elementos
+                    modernos con collages que aportan textura. Me gusta explorar varias ramas del diseño, pero definitivamente
+                    siento una conexión especial con lo audiovisual y el diseño editorial.</p>
+                
+                <p class="izquierda">Me encanta la idea de contar historias a través de imágenes, movimiento y tipografía;
+                    busco que cada proyecto tenga un mensaje claro y memorable. Una de mis fortalezas es mi habilidad para
+                    adaptarme a diferentes herramientas de diseño. Tengo experiencia usando muchas aplicaciones de Adobe, como
+                    Photoshop, Illustrator, InDesign, After Effects, Premiere Pro, entre otros; lo que me permite cubrir una
+                    amplia variedad de necesidades creativas.</p>
+            </div>
+
+            <div class="content2">
+                <h2 class="animated-title">Who am I?</h2>
+                <p class="derecha">I'm Danie Be, a multimedia graphic design student. I consider myself a calm, proactive and
+                    formal person. My style is characterized by being minimalist, but always adding a vintage touch that
+                    makes my work have personality. I love to combine modern elements with collages that add texture. I like
+                    to explore various branches of design, but I definitely feel a special connection with audiovisual and
+                    editorial design.</p>
+                
+                <p class="derecha">I love the idea of telling stories through images, movement and typography. I want each
+                    project to have a clear and memorable message. One of my strengths is my ability to adapt to different
+                    design tools. I have experience using many Adobe applications, such as Photoshop, Illustrator, InDesign,
+                    After Effects, Premiere Pro, among others; which allows me to cover a wide variety of creative needs.</p>
+            </div>
+        </div>
+        
+        <script>
+            gsap.from(".animated-title", { opacity: 0, x: -100, duration: 1, stagger: 0.5 }); 
+            gsap.from(".izquierda", { opacity: 0, x: -50, duration: 1, stagger: 0.3 }); 
+            gsap.from(".derecha", { opacity: 0, x: 50, duration: 1, stagger: 0.4 }); 
+        </script>
+    </section>
+</body>
+<footer>
+    <table>
+        <td>
+            <a href="https://www.instagram.com/danie_be__/">
+                <img src="imagenes/intstagram.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/daniebe/">
+                <img src="imagenes/linkedin.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.behance.net/daniebe">
+                <img src="imagenes/behance.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="tel:+50370941811">
+                <img src="imagenes/numero.png" style="width: 15%;" />
+            </a>
+        </td>
+        <td>
+            <a href="mailto:dbfloresv@gmail.com">
+                <img src="imagenes/correo.png" style="width: 10%;" />
+            </a>
+        </td>
+    </table>
+</footer>
+
+</html>

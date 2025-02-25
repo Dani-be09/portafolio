@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <header class="welcome">
+        <h1>Welcome</h1>
+    </header>
+
+    <script>
+        gsap.from("h1", { opacity: 0, y: -50, duration: 1 });
+    </script>
+    <div class="main-container">
+        <div class="content">
+            <p>hola</p>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <table>
+        <td>
+            <a href="https://www.instagram.com/danie_be__/">
+                <img src="imagenes/intstagram.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/daniebe/">
+                <img src="imagenes/linkedin.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.behance.net/daniebe">
+                <img src="imagenes/behance.png" style="width: 10%;" />
+            </a>
+        </td>
+        <td>
+            <a href="tel:+50370941811">
+                <img src="imagenes/numero.png" style="width: 15%;" />
+            </a>
+        </td>
+        <td>
+            <a href="mailto:dbfloresv@gmail.com">
+                <img src="imagenes/correo.png" style="width: 10%;" />
+            </a>
+        </td>
+    </table>
+</footer>
+
+</html>
