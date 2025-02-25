@@ -149,3 +149,23 @@ footer {
     min-height: 200px;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 50px;
+    }
+    .welcome {
+        font-size: 25px;
+        padding: 30px;
+    }
+    .izquierda, .derecha {
+        padding: 15px;
+        font-size: 18px;
+    }
+    .projects {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
